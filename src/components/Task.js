@@ -20,7 +20,7 @@ export default function Task({
           onClick={() => onArchieveTask(id)}
         ></span>
       </label>
-      <div className="title">
+      <div className="title" style={{ background: "red" }}>
         <input
           type="text"
           value={title}

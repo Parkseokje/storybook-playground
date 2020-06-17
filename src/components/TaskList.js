@@ -1,6 +1,6 @@
 import React from "react";
 import Task from "./Task";
-import { connect, Provider } from "react-redux";
+import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { archiveTask, pinTask } from "../lib/redux";
 
